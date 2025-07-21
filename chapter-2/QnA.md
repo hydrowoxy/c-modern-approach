@@ -1,0 +1,14 @@
+- `GCC` == used to stand for GNU C Compiler. Now stands for GNU Compiler Collection.
+- `GNU` == GNU's Not Unix (pronounced guh new)
+- The compiler replaces comments with a space
+- You can't nest comments
+- float == floating point because floats are stored in two parts
+  - fraction (or mantissa) and exponent
+  - Ex. 12.0 is stored as 1.5 * 2^3
+  - Ex. where 1.5 is the fraction and 3 is the exponent
+- why the `f` after floats
+  - if you don't, it's a double
+  - doubles can be larger than float
+- only the first 31 chars of an identifier name are only required to be remembered by the compiler
+  - so if two are identical for the first 31 and the 32nd is diff, compiler might not recognize it as different
+- optimal indentation is three spaces according to some studies
