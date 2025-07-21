@@ -1,0 +1,1 @@
+Only the space between the directive and the main function. Everything in main can be one line. 
