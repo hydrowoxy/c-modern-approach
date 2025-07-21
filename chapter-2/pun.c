@@ -32,3 +32,13 @@ int main(void) {   // Executable code goes inside main
 //      ./pun
 
 // the ./ is important otherwise it's gonna look in system path not this folder
+// also remember to do cd chapter-2 if ur in root otherwise it won't find it
+
+//salmabaig@rogzephyrus:/mnt/c/Users/salee/OneDrive/Documents/GitHub/c-modern-approach$ gcc -o pun pun.c
+//cc1: fatal error: pun.c: No such file or directory
+//compilation terminated.
+//salmabaig@rogzephyrus:/mnt/c/Users/salee/OneDrive/Documents/GitHub/c-modern-approach$ cd chapter-2
+//salmabaig@rogzephyrus:/mnt/c/Users/salee/OneDrive/Documents/GitHub/c-modern-approach/chapter-2$ gcc -o pun pun.c
+//salmabaig@rogzephyrus:/mnt/c/Users/salee/OneDrive/Documents/GitHub/c-modern-approach/chapter-2$ ./pun
+//To C, or not to C: that is the question.
+//salmabaig@rogzephyrus:/mnt/c/Users/salee/OneDrive/Documents/GitHub/c-modern-approach/chapter-2$ 
