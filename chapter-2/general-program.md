@@ -64,8 +64,10 @@ three key language features that even simple c programs rely on:
 You could replace 
 `printf("To C, or not to C: that is the question.\n");`
 with
-`printf("To C, or not to C: ");`
-`printf("that is the question.\n");`
+```
+printf("To C, or not to C: ");
+printf("that is the question.\n");
+```
 and it would look identical in output
 
 You can put `\n` wherever ya want many times in a string literal if needed. 
