@@ -1,0 +1,54 @@
+## Comments
+`pun.c` is not documented booo
+- best practice to have eveyr program include identifying info.
+    - program name, date written, author, purpose, etc.
+    - put it in comments
+- `/* this is a comment */`
+  - comments can appear anywhere
+
+Ex. for `pun.c`
+```
+/* Name: pun.c */
+/* Purpose: prints a bad pun. */
+/* Author: K. N. King */
+```
+can be placed at the top of the file. 
+
+Multiline comments:
+```
+/* Name: pun.c 
+   Purpose: prints a bad pun.
+   Author: K. N. King 
+*/
+```
+
+You can also box it to make it stand out
+```
+/*************************************************
+ * Name: pun.c                                   *
+ * Purpose: prints a bad pun.                    *
+ * Author: K. N. King                            *
+ *************************************************/
+```
+
+Or do this by omitting three sides
+```
+/*
+ * Name: pun.c                                   
+ * Purpose: prints a bad pun.                    
+ * Author: K. N. King                            
+ */
+```
+
+Winged comments go in line with other code
+`int main(void) /* beginning of main program */`
+
+C99 also lets you use `//` for comments
+`// this is a comment`
+- Ends automaticallt at the end of a line
+- Multiline can be done the old way or with these
+```
+// Name: pun.c                                   
+// Purpose: prints a bad pun.                    
+// Author: K. N. King                            
+```
