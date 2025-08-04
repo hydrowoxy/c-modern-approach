@@ -33,6 +33,6 @@ int main(void){
         case 11: printf("November");     break;
         case 12: printf("December");     break;
     }
-    printf (", 20%.2d.\n", year);
+    printf (", 20%.2d.\n", year); // so that single digit years like 2005 don't get printed as 205, we use .2d
     return 0;
 }
